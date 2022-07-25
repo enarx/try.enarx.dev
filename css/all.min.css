@@ -1,310 +1,64 @@
-/*! * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) * Copyright 2022 Fonticons, Inc. */
-.fa{
-    font-family:var(--fa-style-family,"Font Awesome 6 Free");
-    font-weight:var(--fa-style,900)
-}
-.fa,.fa-light,.fab,.fas,.fat{
-    -moz-osx-font-smoothing:grayscale;
-    -webkit-font-smoothing:antialiased;
-    display:var(--fa-display,inline-block);
-    font-style:normal;
-    font-variant:normal;
-    line-height:1;
-    text-rendering:auto
-}
-.fa-1x{
-    font-size:1em
-}
-.fa-2x{
-    font-size:2em
-}
-.fa-3x{
-    font-size:3em
-}
-.fa-4x{
-    font-size:4em
-}
-.fa-5x{
-    font-size:5em
-}
-.fa-6x{
-    font-size:6em
-}
-.fa-7x{
-    font-size:7em
-}
-.fa-8x{
-    font-size:8em
-}
-.fa-9x{
-    font-size:9em
-}
-.fa-10x{
-    font-size:10em
-}
-.fa-lg{
-    font-size:1.25em;
-    line-height:.05em;
-    vertical-align:-.075em
-}
-.fa-0:before{
-    content:"\30"
-}
-.fa-1:before{
-    content:"\31"
-}
-.fa-2:before{
-    content:"\32"
-}
-.fa-3:before{
-    content:"\33"
-}
-.fa-4:before{
-    content:"\34"
-}
-.fa-5:before{
-    content:"\35"
-}
-.fa-6:before{
-    content:"\36"
-}
-.fa-7:before{
-    content:"\37"
-}
-.fa-8:before{
-    content:"\38"
-}
-.fa-9:before{
-    content:"\39"
-}
-.fa-a:before{
-    content:"\41"
-}
-.fa-blog:before{
-    content:"\f781"
-}
-.fa-c:before{
-    content:"\43"
-}
-.fa-graduation-cap:before{
-    content:"\f19d"
-}
-.fa-h:before{
-    content:"\48"
-}
-.fa-header:before,.fa-heading:before{
-    content:"\f1dc"
-}
-.fa-i:before{
-    content:"\49"
-}
-.fa-info:before{
-    content:"\f129"
-}
-.fa-language:before{
-    content:"\f1ab"
-}
-.fa-link:before{
-    content:"\f0c1"
-}
-.fa-mobile:before{
-    content:"\f3ce"
-}
-.fa-mobile-button:before{
-    content:"\f10b"
-}
-.fa-mobile-alt:before{
-    content:"\f3cd"
-}
-.fa-p:before{
-    content:"\50"
-}
-.fa-running:before{
-    content:"\f70c"
-}
-.fa-rocket:before{
-    content:"\f135"
-}
-.fa-rss:before{
-    content:"\f09e"
-}
-.fa-section:before{
-    content:"\e447"
-}
-.fa-server:before{
-    content:"\f233"
-}
-.fa-star:before{
-    content:"\f005"
-}
-.fa-columns:before{
-    content:"\f0db"
-}
-.fa-tags:before{
-    content:"\f02c"
-}
-.fa-terminal:before{
-    content:"\f120"
-}
-.fa-text-height:before{
-    content:"\f034"
-}
-.fa-text-width:before{
-    content:"\f035"
-}
-.fa-tree:before{
-    content:"\f1bb"
-}
-.fa-try:before{
-    content:"\e2bb"
-}
-.fa-x:before{
-    content:"\58"
-}
-:host,:root{
-    --fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"
-}
-@font-face{
-    font-family:"Font Awesome 6 Brands";
-    font-style:normal;
-    font-weight:400;
-    font-display:block;
-    src:url(https://try.enarx.dev/webfonts/fa-brands-400.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-brands-400.ttf) format("truetype")
-}
-.fab{
-    font-family:"Font Awesome 6 Brands";
-    font-weight:400
-}
-.fa-aws:before{
-    content:"\f375"
-}
-.fa-css3:before{
-    content:"\f13c"
-}
-.fa-css3-alt:before{
-    content:"\f38b"
-}
-.fa-dev:before{
-    content:"\f6cc"
-}
-.fa-edge:before{
-    content:"\f282"
-}
-.fa-github:before{
-    content:"\f09b"
-}
-.fa-github-alt:before{
-    content:"\f113"
-}
-.fa-golang:before{
-    content:"\e40f"
-}
-.fa-google:before{
-    content:"\f1a0"
-}
-.fa-html5:before{
-    content:"\f13b"
-}
-.fa-java:before{
-    content:"\f4e4"
-}
-.fa-js:before{
-    content:"\f3b8"
-}
-.fa-python:before{
-    content:"\f3e2"
-}
-.fa-rust:before{
-    content:"\e07a"
-}
-.fa-swift:before{
-    content:"\f8e1"
-}
-.fa-twitter:before{
-    content:"\f099"
-}
-:host,:root{
-    --fa-font-regular:normal 400 1em/1 "Font Awesome 6 Free"
-}
-:host,:root{
-    --fa-font-solid:normal 900 1em/1 "Font Awesome 6 Free"
-}
-@font-face{
-    font-family:"Font Awesome 6 Free";
-    font-style:normal;
-    font-weight:900;
-    font-display:block;
-    src:url(https://try.enarx.dev/webfonts/fa-solid-900.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-solid-900.ttf) format("truetype")
-}
-.fas{
-    font-family:"Font Awesome 6 Free";
-    font-weight:900
-}
-@font-face{
-    font-family:"Font Awesome 5 Brands";
-    font-display:block;
-    font-weight:400;
-    src:url(https://try.enarx.dev/webfonts/fa-brands-400.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-brands-400.ttf) format("truetype")
-}
-@font-face{
-    font-family:"Font Awesome 5 Free";
-    font-display:block;
-    font-weight:900;
-    src:url(https://try.enarx.dev/webfonts/fa-solid-900.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-solid-900.ttf) format("truetype")
-}
-@font-face{
-    font-family:FontAwesome;
-    font-display:block;
-    src:url(https://try.enarx.dev/webfonts/fa-solid-900.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-solid-900.ttf) format("truetype")
-}
-@font-face{
-    font-family:FontAwesome;
-    font-display:block;
-    src:url(https://try.enarx.dev/webfonts/fa-brands-400.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-brands-400.ttf) format("truetype")
-}
-:host,:root{
-    --fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"
-}
-@font-face{
-    font-family:"Font Awesome 6 Brands";
-    font-style:normal;
-    font-weight:400;
-    font-display:block;
-    src:url(https://try.enarx.dev/webfonts/fa-brands-400.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-brands-400.ttf) format("truetype")
-}
-:host,:root{
-    --fa-font-solid:normal 900 1em/1 "Font Awesome 6 Free"
-}
-@font-face{
-    font-family:"Font Awesome 6 Free";
-    font-style:normal;
-    font-weight:900;
-    font-display:block;
-    src:url(https://try.enarx.dev/webfonts/fa-solid-900.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-solid-900.ttf) format("truetype")
-}
-.fas{
-    font-family:"Font Awesome 6 Free";
-    font-weight:900
-}
-@font-face{
-    font-family:"Font Awesome 5 Brands";
-    font-display:block;
-    font-weight:400;
-    src:url(https://try.enarx.dev/webfonts/fa-brands-400.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-brands-400.ttf) format("truetype")
-}
-@font-face{
-    font-family:"Font Awesome 5 Free";
-    font-display:block;
-    font-weight:900;
-    src:url(https://try.enarx.dev/webfonts/fa-solid-900.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-solid-900.ttf) format("truetype")
-}
-@font-face{
-    font-family:FontAwesome;
-    font-display:block;
-    src:url(https://try.enarx.dev/webfonts/fa-solid-900.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-solid-900.ttf) format("truetype")
-}
-@font-face{
-    font-family:FontAwesome;
-    font-display:block;
-    src:url(https://try.enarx.dev/webfonts/fa-brands-400.woff2) format("woff2"),url(https://try.enarx.dev/webfonts/fa-brands-400.ttf) format("truetype")
-}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('https://try.enarx.dev/fonts/icomoon.eot?j0ru86');
+    src:  url('https://try.enarx.dev/fonts/icomoon.eot?j0ru86#iefix') format('embedded-opentype'),
+      url('https://try.enarx.dev/fonts/icomoon.ttf?j0ru86') format('truetype'),
+      url('https://try.enarx.dev/fonts/icomoon.woff?j0ru86') format('woff'),
+      url('https://try.enarx.dev/fonts/icomoon.svg?j0ru86#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="fa-"], [class*=" fa-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .fa-star:before {
+    content: "\f005";
+  }
+  .fa-twitter:before {
+    content: "\f099";
+  }
+  .fa-github:before {
+    content: "\f09b";
+  }
+  .fa-feed:before {
+    content: "\f09e";
+  }
+  .fa-rss:before {
+    content: "\f09e";
+  }
+  .fa-columns:before {
+    content: "\f0db";
+  }
+  .fa-terminal:before {
+    content: "\f120";
+  }
+  .fa-rocket:before {
+    content: "\f135";
+  }
+  .fa-graduation-cap:before {
+    content: "\f19d";
+  }
+  .fa-mortar-board:before {
+    content: "\f19d";
+  }
+  .fa-commenting-o:before {
+    content: "\f27b";
+  }
+  .fa-microchip:before {
+    content: "\f2db";
+  }
+  
