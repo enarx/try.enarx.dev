@@ -1,7 +1,6 @@
 # A guide on how to use Try Enarx 🎯
 
-A little amount of efforts are required but we will walk you through all of it. For instance, trying enarx with your own WASM files is a matter of few clicks. Our goal is to understand how it 
-happens step by step by *learning and doing*.
+A little amount of efforts are required but we will walk you through all of it. For instance, trying enarx with your own WASM files is a matter of few clicks. Our goal is to understand how it happens step by step by *learning and doing*.
 
 # Few insights on Try Enarx
 * Enarx supports [Webassembly](https://webassembly.org/) by using wasmtime as a runtime. It heavily works on it. So try to find out what these terms actually mean to us and why we use it?
