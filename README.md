@@ -1,6 +1,6 @@
 # A guide on how to use Try Enarx 🎯
 
-A little amount of efforts are required but we will walk you through all of it. For instance, trying enarx in your own WASM files is a matter of few clicks. Our goal is to understand how it 
+A little amount of efforts are required but we will walk you through all of it. For instance, trying enarx with your own WASM files is a matter of few clicks. Our goal is to understand how it 
 happens step by step by *learning and doing*.
 
 # Few insights on Try Enarx
