@@ -4,7 +4,7 @@ A little amount of efforts are required but we will walk you through all of it. 
 happens step by step by *learning and doing*.
 
 # Few insights on Try Enarx
-* Enarx supports [Webassembly](https://webassembly.org/) and WASM time. It heavily works on it. So try to find out what these terms actually mean to us and why we use it?
+* Enarx supports [Webassembly](https://webassembly.org/) by using wasmtime as a runtime. It heavily works on it. So try to find out what these terms actually mean to us and why we use it?
 * Converting your files into WASM file can be easily done with the help of [Webassembly-guide](https://enarx.dev/docs/WebAssembly/Introduction). Also,with the comfort of your 
   familiar language. 
 * Choose the language and implements Webassembly to it and then we're good to go( to try enarx with it).
