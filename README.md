@@ -15,7 +15,7 @@ happens step by step by *learning and doing*.
 Go to [try.enarx.dev](https://try.enarx.dev/)
 
 #### Step 2:  Click on "Start Now" on the Try enarx page and then choose a platform.
-Intel on equinox for window user basically. Other can choose their respective platforms like AMD, Azure etc.
+You can choose the following platforms: Intel/AMD on Equinix or Azure .
 
 #### Step 3:  
 Log in from your Github account.
