@@ -29,7 +29,7 @@ Choose a WASM file or the file you've converted into a WASM file.
 
 ## You did it 👏
 
-Tadaa. Now your application is running on a safe ENARX keep. Congrats on your first deploy🔥
+Tadaa. Now your application is running on a safe ENARX Keep. Congrats on your first deploy🔥
 Feel free to join us over out [chat](https://chat.enarx.dev/channel/mentorship) and resource to our [Enarx](https://enarx.dev/docs/Start/Introduction) project will help you dive deep into our motive and perspective.
 
 
